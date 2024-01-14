@@ -13,10 +13,10 @@
 [![Stargazers][stars-shield]][stars-url]
 [![MIT License][license-shield]][license-url]
 
-<h3 align="center">Angela Yu Web Developer Course</h3>
+<h3 align="center">Frontend Mentor </h3>
 
   <p align="center">
-    Course files for working through Shaun Pelling's Modern Javascript Course
+   files for frontend mentor projects as i work through project ideas
     <br />
     <br />
     <br />
@@ -35,7 +35,7 @@
 
 ## About
 
-Course files for Shaun Pelling's Modern Day Javascript for me to post my own solutions and keep track of my progress
+Frontend Mentor Projects ranging in difficulty, including html, css and js
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -43,23 +43,7 @@ Course files for Shaun Pelling's Modern Day Javascript for me to post my own sol
 
 ## Timeline
 ```
-14/01/2023 - completed chapter 04
-```
-
-```
-10/01/2023 - created chapters 05 and 06
-```
-
-```
-09/01/2023 - completed chapter 3 and uploaded chapter 4 files
-```
-
-```
-08/01/2023 - completed chapter 1 and started chapter 2
-```
-
-```
-07/01/2023 - completed initial git repo setup for course structure and started chapter 1
+14/01/2023 - completed initial git repo setup for course structure uploaded files
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
