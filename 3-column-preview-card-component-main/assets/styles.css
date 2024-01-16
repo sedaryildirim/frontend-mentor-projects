@@ -1,96 +1,51 @@
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
-
+/* .attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); } */
 /* Path: 3-column-preview-card-component-main/assets/images/bg-pattern-card.svg */
+
+:root {
+  --white: white;
+  --orange: hsl(31, 77%, 52%);
+  --cyan: hsl(184, 100%, 22%);
+  --darkcyan: hsl(179, 100%, 13%);
+}
+
+
+body {
+  padding: 0;
+  margin: 0;
+}
 
 .container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background-color: hsl(0, 0%, 95%);
-  padding: 2rem;
-  border-radius: 0.5rem;
-  margin: 2rem;
+  justify-content: center; /* align horizontal */
+  align-items: center; /* align vertical */
+  height: 100vh; /* Full height of the viewport */
+  width: 80%; /* Adjust this to control the width of the container */
+  max-width: 900px;
+  margin: auto; /* This will center the container */
 }
 
 .card {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background-color: white;
-  padding: 2rem;
-  border-radius: 0.5rem;
-  margin: 2rem;
+  width: 50%;
+  height: 35%;
 }
 
-.sedan {
-    background-color: hsl(31, 77%, 52%);
+.card__sedan {
+  background-color: var(--orange);
+  border-radius: 10px 0px 0px 10px;
 }
 
-.suvs {
-    background-color: hsl(184, 100%, 22%);
+.card__suvs {
+  background-color: var(--cyan);
 }
 
-.luxury {
-    background-color: hsl(179, 100%, 13%);
+.card__luxury {
+  background-color: var(--darkcyan);
+  border-radius: 0px 10px 10px 0px;
 }
 
-.card__image {
-  width: 100%;
-  height: 200px;
-  border-radius: 0.5rem;
-  margin-bottom: 2rem;
-}
-
-.card__title {
-  font-size: 1.5rem;
-  font-weight: 700;
-  color: hsl(228, 45%, 44%);
-  margin-bottom: 1rem;
-}
-
-.card__description {
-  font-size: 1rem;
-  font-weight: 400;
-  color: hsl(230, 17%, 14%);
-  text-align: center;
-  margin-bottom: 2rem;
-}
-
-.card__button {
-  padding: 1rem 2rem;
-  border-radius: 0.5rem;
-  background-color: hsl(228, 45%, 44%);
-  color: white;
-  font-size: 1rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  cursor: pointer;
-}
-
-.card__button:hover {
-  background-color: hsl(227, 35%, 25%);
-}
-
-@media (min-width: 768px) {
+@media (max-width: 375px) {
   .container {
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: space-between;
-  }
-
-  .card {
-    width: 300px;
-    margin: 0;
+    flex-direction: column;
   }
 }
-
-@media (min-width: 1024px) {
-  .container {
-    justify-content: center;
-  }
-}
-
