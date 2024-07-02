@@ -32,6 +32,33 @@
   --font-semi-bold: 600;
 }
 
+/* Body  */
+body {
+  background-color: var(--color-Eggshell);
+  align-items: center;
+}
+
+/* Image */
+
+img {
+  display: block;
+  max-width: 100%;
+  border-radius: 0.6rem;
+}
+
+/* Hero Card */
+.hero-card {
+  max-width: 50%;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 50px;
+  padding: 40px 40px;
+}
+
+/* Attribution */
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
 
