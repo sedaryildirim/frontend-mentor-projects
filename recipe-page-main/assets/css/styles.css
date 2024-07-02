@@ -34,8 +34,15 @@
 
 /* Body  */
 body {
+  font-family: 'Outfit', sans-serif;
   background-color: var(--color-Eggshell);
+  padding: 32px 48px;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
   align-items: center;
+  flex-direction: column;
+  gap: 32px;
 }
 
 /* Image */
@@ -43,7 +50,7 @@ body {
 img {
   display: block;
   max-width: 100%;
-  border-radius: 0.6rem;
+  border-radius: 8px;
 }
 
 /* Hero Card */
@@ -51,8 +58,8 @@ img {
   max-width: 50%;
   margin: 0 auto;
   background-color: white;
-  border-radius: 50px;
-  padding: 40px 40px;
+  border-radius: 8px;
+  padding: 20px 20px;
 }
 
 /* Attribution */
